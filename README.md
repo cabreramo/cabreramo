@@ -1,9 +1,12 @@
-Alumno: José Ángel Cabrera Morales
 
-No.Control: 18100155
+#INSTITUTO TECNOLOGICO DE NUEVO LAREDO
 
-Materia: Programacion web
+-Alumno: José Ángel Cabrera Morales
 
-No se me sube el archivo
+-No.Control: 18100155
 
-Creao que ya supe como....
+-Materia: Programacion web
+
+Maestro: Gerardo Pineda Zapata
+
+>**El genio se hace con un 1% de talento, y un 99% de trabajo.  Albert Einstein**
