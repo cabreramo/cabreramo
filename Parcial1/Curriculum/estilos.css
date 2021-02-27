@@ -1,0 +1,32 @@
+.fondobody{
+    background-COLOR: #16214C;
+    color: #ffffff;
+}
+
+h1, h2, h3, h5{
+    text-align: center;
+}
+
+.centrado{
+    align-content: center;
+}
+
+table {
+    width: 100%;
+ }
+ th, td {
+    width: 25%;
+ }
+
+
+ svg{
+    align-content: center;
+ }
+
+ .alineacionth{
+     text-align: center;
+ }
+
+ img{
+    background-image: #16214C;
+    }
