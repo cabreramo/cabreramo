@@ -1,10 +1,30 @@
-function validar(){
- var usuario = document.getElementById("usuario").value;
- var contrasena = document.getElementById("contrasena").value;
+// function validar(){
+//  var usuario = document.getElementById("usuario").value;
+//  var contrasena = document.getElementById("contrasena").value;
 
- if(usuario="admin" && contrasena=="1234"){
-    alert("LOGEADO");
- }else{
-     alert("error");
- }
-}
+//  if(usuario="admin" && contrasena=="1234"){
+//     alert("LOGEADO");
+//  }else{
+//      alert("error");
+//  }
+// }
+
+
+// <!-- JQUERY -->
+ $(document).ready(function()
+ {
+                    $("#validar").click(function(){
+                        var usuario=$('#usuario').val();
+                        var contrasena=$('#contrasena').val();
+
+                     if( usuario='admin' && contrasena=='1234') {
+                        $('#myModal').modal('show');                                         
+                       }
+                     else {
+                        $('.modal-body').html("CONTRASEÑA INCORRECTA");
+                        $('#myModal').modal('show');
+                                         }
+              
+             });
+     
+         });
