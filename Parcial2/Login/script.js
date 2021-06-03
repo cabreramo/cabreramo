@@ -17,12 +17,13 @@
                         var usuario=$('#usuario').val();
                         var contrasena=$('#contrasena').val();
 
-                     if( usuario='admin' && contrasena=='1234') {
+                     if( usuario=='admin' && contrasena=='1234') {
                         $('#myModal').modal('show');                                         
                        }
                      else {
-                        $('.modal-body').html("CONTRASEÑA INCORRECTA");
                         $('#myModal').modal('show');
+                        $('.modal-body').html("CONTRASEÑA INCORRECTA");
+
                                          }
               
              });
