@@ -26,6 +26,9 @@
 
     <!-- sweet alert -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.0/sweetalert2.css"/>
+   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.0/sweetalert2.js"></script>
 </head>
 <body>
 
@@ -38,7 +41,7 @@
                     </center>
                                     </div>
                 <div class="card-body">
-                    <form action="validar.php" method="post">
+                    <form action="validar.php" method="POST">
                         <div class="input-group form-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-user"></i></span>
@@ -72,29 +75,6 @@
         </div>
     </div>
 
-    <!-- modal -->
-    <!-- Modal -->
-   <!-- <div id="myModal" class="modal fade" role="dialog" aria-hidden="true">
-        <div class="modal-dialog" role="document">  
-         Modal content
-         <div class="modal-content">
-           <div class="modal-header">
-               <CENTER>
-                <h4 class="modal-title">INSTITUTO TECNOLOGICO DE NUEVO LAREDO </h4>
-
-               </CENTER>
-           </div>
-           <div class="modal-body">
-             <CENTER>
-                <p style="font-style: normal;">INICIO DE SESION CORRECTO!</p>
-             </CENTER>
-           </div>
-           <div class="modal-footer">
-             <button type="button" class="btn btn-default" data-dismiss="modal">CERRAR</button>
-           </div>
-         </div> 
-        </div>
-       </div>-->
     
 </body>
 </html>

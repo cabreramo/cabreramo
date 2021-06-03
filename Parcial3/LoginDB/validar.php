@@ -3,6 +3,13 @@
     $usuario=$_POST['usuario'];
     $contrasena=$_POST['contrasena'];
 
+
+
+    
+    // para formulario de crear nuevo usuario.
+    // $pass_cifrado=password_hash($contrasena, PASSWORD_DEFAULT);
+
+
     //metodo para iniciar sesiobn
     session_start(); 
 
@@ -11,10 +18,14 @@
     //conexion a la bd.
     include('db.php');
 
-    //se puede utilizar tambien:     $conexion=mysqli_("localhost", "root", "", "sistema");
+    //se puede utilizar tambien:     $conexion=mysqli_("localhost", "root", "", "cabreramo");
 
 
-    $consulta="Select*FROM usuarios where usuario ='$usuario' and contrasena='$contrasena'";
+    //     $consulta="Select*FROM usuarios where usuario ='$usuario' and contrasena='$pass_cifrado'";
+
+    $pass_cifrado=md5($contrasena);
+
+    $consulta="Select*FROM usuarios where usuario ='$usuario' and contrasena='$pass_cifrado'";
 
 
     //xconexion viene desde db.php, y mandamos la consulta que se creo arriba.
@@ -30,7 +41,12 @@
         ?>
         <?php
             echo "<script>alert('Contrase;a incorrecta');location.href ='javascript:history.back()';</script>";
-     ?>
+            //echo "<script>alert('Contrase;a incorrecta');location.href ='javascript:history.back()';</script>";
+            // echo "<script> swal({
+            //     title: '¡ERROR!',
+            //     text: 'Esto es un mensaje de error',
+            //     type: 'error',
+            //   });</script>";     ?>
 
         <?php
     }
