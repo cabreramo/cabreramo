@@ -1,6 +1,6 @@
 CREATE DATABASE `cabreramo`
 use cabreramo
-CREATE TABLE agendaviaje (
+CREATE TABLE agendaviajes (
   `id_numviaje` int NOT NULL AUTO_INCREMENT,
   `origen` varchar(25) NOT NULL,
   `destino` varchar(25) NOT NULL,
