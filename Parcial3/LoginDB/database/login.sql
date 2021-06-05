@@ -9,5 +9,6 @@ create table usuarios(
 
 insert into login(usuario, contrasena)
 values ('jose', 'cabrera'),
-		('profe', '123'),
-		('admin','1234')
+	  ('admin','1234'),
+		('profe', '123')
+	
