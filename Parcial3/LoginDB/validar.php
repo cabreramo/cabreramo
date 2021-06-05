@@ -40,7 +40,7 @@
     }else{
         ?>
         <?php
-            echo "<script>alert('Contrase;a incorrecta');location.href ='javascript:history.back()';</script>";
+            echo "<script>alert('Usuario o contraseña incorrecta');location.href ='javascript:history.back()';</script>";
             //echo "<script>alert('Contrase;a incorrecta');location.href ='javascript:history.back()';</script>";
             // echo "<script> swal({
             //     title: '¡ERROR!',
