@@ -8,7 +8,7 @@ create table usuarios(
 )
 
 insert into login(usuario, contrasena)
-values ('jose', 'cabrera'),
-	  ('admin','1234'),
-		('profe', '123')
+values ('jose', '2aacd6088b178aa10391f45dd275059c'),
+	  ('admin','81dc9bdb52d04dc20036dbd8313ed055'),
+		('profe', '202cb962ac59075b964b07152d234b70')
 	
