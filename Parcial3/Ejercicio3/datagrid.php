@@ -4,7 +4,7 @@ try{
     include ('db.php');
 
     // query para traer todos los datos de la tabla agenda viajes
-    $query = "select * from agendaviajes";
+    $query = "select id_viaje, from agendaviajes";
     // consulta
     $consulta = $conexion -> prepare($query);
 

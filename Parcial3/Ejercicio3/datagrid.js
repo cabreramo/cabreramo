@@ -16,7 +16,6 @@ $('document').ready(function(){
                     {name:"gasto_comida", type:"number", title:"Gastos de comida", width:50,align: "left"},
                     {name:"gastas_extras", type:"number", title:"Gastos extras", width:50,align: "left"},
                     {name:"fecha_inicio", type:"date", title:"fecha inicio", width:50,align: "center"},
-                    {name:"fecha_fin", type:"date", title:"fecha fin", width:50,align: "center"},
                     {type:"control"}]
         });
     },'json');

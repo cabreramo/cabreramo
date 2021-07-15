@@ -58,7 +58,12 @@
         $_SESSION['message']= 'Viaje modificado correctamente';
         $_SESSION['message_type'] = 'info';
         header("Location: agenda.php");
+    }
 
+    if(isset($_POST['cancelar'])){
+        $_SESSION['message']= 'Viaje modificado correctamente';
+        $_SESSION['message_type'] = 'info';
+        header("Location: agenda.php");
 
     }
 
@@ -123,6 +128,9 @@
 
                             <button class="btn btn-success" name="update">
                                 Cambiar
+                            </button>
+                            <button class="btn btn-success" name="cancelar">
+                                Cancelar
                             </button>
 
                         </form>
